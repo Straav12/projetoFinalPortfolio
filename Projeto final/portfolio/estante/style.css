@@ -1,0 +1,121 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f2e7dc;
+
+    /* texto */
+    color: #0d0d0d;
+    text-align: justify;
+
+    /* alinhamento e tamanho */
+    /* 1 rem = 16px, tela grande utiliza-se tamanho de fonte de 16px, tela média 15px e tela pequena 12px */
+    margin: auto;
+}
+
+section{
+    /* padding-top: 64px;
+    padding-right: 256px;
+    padding-bottom: 64px;
+    padding-left: 256px;
+    isso pode ser resumido em apenas uma linha*/
+   
+    /* padding: 64px 256px 64px 256px; */
+    /* também é possível definir cima e baixo,  esquerda e direita, em apenas dois valores */
+    padding: 64px 256px;
+}
+
+
+/* tabela */
+table{
+    width: 100%;
+}
+td{
+    background-color: #A9D9D0;
+}
+tr{
+    background-color: #038C7F;
+}
+td, th{
+    border: 1px solid black;
+    border-radius: 4px;  /* arredondamento */
+    text-align: center;
+}
+
+/* titulo, texto e paragrafos */
+h1, h2, h3{
+    text-align: center;
+}
+h3{
+    color: black;
+}
+
+/* link */
+a:link{
+    color: #025454;
+}
+a:visited{
+    color: #95bfb8;
+}
+a:hover{
+    /* quando passa o mouse por cima */
+    color: black;
+}
+a:active{
+    /* clicando */
+    color: #0d0d0d;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* imagem */
+img{
+    height: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
+/* classes e IDs */
+.bookTitle{
+    background-color: #f8f8f8;
+    color: #027373;
+    text-align: center;
+}
+
+#sectionHP, #sectionAC, #sectionAS{
+    background-color: #A9D9D0;
+}
+
+#header{
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+/* !important - sobrescreve outras definições */
+#yourLibrary{
+    text-indent: 0px;
+    text-align: center;
+}
+#summary{
+    background-color: #038c7f;
+    color: #f2e7dc;
+    margin-bottom: 50px;
+    border-radius: 0 0 50px 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* rodapé */
+footer{
+    background-color: #038c7f;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
